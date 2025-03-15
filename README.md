@@ -46,11 +46,7 @@ DRIVE_FOLDER_ID=your_drive_folder_id
 CREDENTIALS_FILE=credentials.json
 ```
 
-### **4. Configure as Credenciais da API**
-- Baixe o JSON de credenciais do Google Cloud Console.
-- Coloque-o na raiz do projeto e atualize `CREDENTIALS_FILE` no `.env`.
-
-### **6. Execute o Projeto**
+### **4. Execute o Projeto**
 ```bash
 cd app
 uvicorn main:app --reload
